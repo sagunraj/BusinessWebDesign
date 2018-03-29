@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <title>Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+
+  <!-- Custom styles for this template -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+  <link href="css/notforhome.css" rel="stylesheet">
+  <link href="css/cre.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg fixed-top customnav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Account
+                        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="dashboard.html">
+                                <i class="fa fa-home"></i>&nbsp;Dashboard</a>
+              <a class="dropdown-item" href="#">
+                                <i class="fa fa-wrench"></i>&nbsp;Profile and Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                                <i class="fa fa-edit"></i>&nbsp;Change Password</a>
+              <a class="dropdown-item" href="#">
+                                <i class="fa fa-sign-out"></i>&nbsp;Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container dashboard-menu">
+    <p class="h4 mb-4">Dashboard</p>
+    <div class="row">
+      <div class="col-md-9">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">All Notices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Mero Notices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Mero Profile</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-3">
+      <input type="text" name="datesearch" placeholder="Search by date" class="form-control"/>
+  </div>
+  </div>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="date-pills">
+          <!--The pill with dates-->
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item border-right">
+              <a class="nav-link active" id="date1-tab" data-toggle="pill" href="#date1" role="tab" aria-controls="date1" aria-selected="true">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date2-tab" data-toggle="pill" href="#date2" role="tab" aria-controls="date2" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date3-tab" data-toggle="pill" href="#date3" role="tab" aria-controls="date3" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date4-tab" data-toggle="pill" href="#date4" role="tab" aria-controls="date4" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date5-tab" data-toggle="pill" href="#date5" role="tab" aria-controls="date5" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date6-tab" data-toggle="pill" href="#date6" role="tab" aria-controls="date6" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date7-tab" data-toggle="pill" href="#date7" role="tab" aria-controls="date7" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" id="date8-tab" data-toggle="pill" href="#date8" role="tab" aria-controls="date8" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="date9-tab" data-toggle="pill" href="#date9" role="tab" aria-controls="date9" aria-selected="false">2018/03/26<br/>2074/12/11</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="date1" role="tabpanel" aria-labelledby="date1-tab">
+              <table class="table table-responsive table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>S.N.</th>
+                    <th>Notice Publisher</td>
+                      <th>Description</th>
+                      <th>Published on</th>
+                      <th>Number of Bidding Days Left</th>
+                      <th>Remarks</th>
+                      <th>Image/PDF</th>
+                      <th>Mark as Mero Notice</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>Arjun Chaupari Rural Municipality, Office of Rural Municipal Executive, </td>
+                    <td>Supply and Installation of Works of Electrical Backup System</td>
+                    <td>2018-03-29</td>
+                    <td>15 days</td>
+                    <td>None</td>
+                    <td><img src="http://tendernotice.com.np/thumb/2018/03/29/65349Prabhav_0002.jpg?_debugResources=y&n=1522330312190" /></td>
+                    <td><input type="checkbox" name="merocheck" /></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="tab-pane fade" id="date2" role="tabpanel" aria-labelledby="date2-tab">2</div>
+            <div class="tab-pane fade" id="date3" role="tabpanel" aria-labelledby="date3-tab">3</div>
+            <div class="tab-pane fade" id="date4" role="tabpanel" aria-labelledby="date4-tab">4</div>
+            <div class="tab-pane fade" id="date5" role="tabpanel" aria-labelledby="date5-tab">5</div>
+            <div class="tab-pane fade" id="date6" role="tabpanel" aria-labelledby="date6-tab">6</div>
+            <div class="tab-pane fade" id="date7" role="tabpanel" aria-labelledby="date7-tab">7</div>
+            <div class="tab-pane fade" id="date8" role="tabpanel" aria-labelledby="date8-tab">8</div>
+            <div class="tab-pane fade" id="date9" role="tabpanel" aria-labelledby="date9-tab">9</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <table class="table table-responsive table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>S.N.</th>
+              <th>Notice Publisher</td>
+                <th>Description</th>
+                <th>Published on</th>
+                <th>Number of Bidding Days Left</th>
+                <th>Remarks</th>
+                <th>Image/PDF</th>
+                <th>Mark as Mero Notice</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>Arjun Chaupari Rural Municipality, Office of Rural Municipal Executive, </td>
+              <td>Supply and Installation of Works of Electrical Backup System</td>
+              <td>2018-03-29</td>
+              <td>15 days</td>
+              <td>None</td>
+              <td><img src="http://tendernotice.com.np/thumb/2018/03/29/65349Prabhav_0002.jpg?_debugResources=y&n=1522330312190" /></td>
+              <td><input type="checkbox" name="merocheck" checked/></td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Arjun Chaupari Rural Municipality, Office of Rural Municipal Executive, </td>
+              <td>Supply and Installation of Works of Electrical Backup System</td>
+              <td>2018-03-29</td>
+              <td>15 days</td>
+              <td>None</td>
+              <td><img src="http://tendernotice.com.np/thumb/2018/03/29/65349Prabhav_0002.jpg?_debugResources=y&n=1522330312190" /></td>
+              <td><input type="checkbox" name="merocheck" checked/></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tortor quis nulla ultricies porta. Proin faucibus finibus imperdiet. Donec ornare sodales odio id congue. Quisque eu vulputate mi. Phasellus mollis congue tempus. Fusce vitae tincidunt
+        massa, sit amet consequat quam. Cras pharetra dolor efficitur bibendum tristique. Proin euismod dictum eleifend. Phasellus semper eros metus, ac consectetur enim aliquet ac</div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <ul class="footer-social text-center">
+    <li>
+      <a href="#">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+    </li>
+    <li>
+      <a href="#">
+                <i class="fa fa-twitter-square"></i>
+            </a>
+    </li>
+    <li>
+      <a href="#">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+    </li>
+    <li>
+      <a href="#">
+                <i class="fa fa-google-plus-square"></i>
+            </a>
+    </li>
+  </ul>
+  <footer class="footer-copyright py-3 text-center">
+    Copyright © 2015. All Rights Reserved.
+  </footer>
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>

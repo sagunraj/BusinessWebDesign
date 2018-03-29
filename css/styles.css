@@ -37,3 +37,31 @@ footer {
     margin: 0 auto;
     margin-bottom: 2%;
 }
+
+.dropdown {
+    background: #FA5A46;
+    border-radius: 5px;
+}
+
+#navbarDropdown{
+    color:white;
+}
+
+.dashboard-menu{
+    padding: 1.7em;
+    border-radius: 5px;
+    background: white;
+}
+
+.tab-pane {
+    margin-top: 1em;
+}
+
+.date-pills {
+    border: 1px solid #DCE1E5;
+    padding: 1em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #FA5A46;
+}
